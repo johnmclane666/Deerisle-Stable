@@ -72,7 +72,7 @@
         </children>
     </event>
 	<event name="AmbientPolarbear">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <min>1</min>
         <max>2</max>
         <lifetime>180</lifetime>
@@ -818,9 +818,9 @@
         <children/>
     </event>
     <event name="StaticHeliCrash">
-        <nominal>4</nominal>
-        <min>4</min>
-        <max>4</max>
+        <nominal>5</nominal>
+        <min>5</min>
+        <max>5</max>
         <lifetime>1200</lifetime>
         <restock>0</restock>
         <saferadius>400</saferadius>
@@ -838,8 +838,8 @@
     </event>
     <event name="StaticScientist">
         <nominal>1</nominal>
-        <min>0</min>
-        <max>0</max>
+        <min>1</min>
+        <max>1</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>300</saferadius>
@@ -1042,7 +1042,26 @@
             <child lootmax="0" lootmin="0" max="10" min="6" type="Boat_01_Blue"/>
             <child lootmax="0" lootmin="0" max="10" min="6" type="Boat_01_Orange"/>
 	  </children>
-    </event>	
+    </event>
+	<event name="VehicleBoatSTAG">
+        <nominal>3</nominal>
+        <min>3</min>
+        <max>2</max>
+        <lifetime>6000</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+		<children>
+            <child lootmax="0" lootmin="0" max="10" min="6" type="jmc_Boat_STAG_Black"/>
+            <child lootmax="0" lootmin="0" max="10" min="6" type="jmc_Boat_STAG_White"/>
+			<child lootmax="0" lootmin="0" max="10" min="6" type="jmc_Boat_STAG_Red"/>
+	  </children>
+    </event>
     <event name="VehicleCivilianSedan">
         <nominal>0</nominal>
         <min>0</min>
@@ -1270,9 +1289,9 @@
   </event>    		
 
     <event name="StaticSurvivorCamps">
-        <nominal>4</nominal>
-        <min>4</min>
-        <max>4</max>
+        <nominal>5</nominal>
+        <min>5</min>
+        <max>5</max>
         <lifetime>1200</lifetime>
         <restock>0</restock>
         <saferadius>400</saferadius>
@@ -1286,9 +1305,9 @@
         <children/>            
     </event>  
 	<event name="StaticConvoys">
-        <nominal>3</nominal>
-        <min>3</min>
-        <max>3</max>
+        <nominal>4</nominal>
+        <min>4</min>
+        <max>4</max>
         <lifetime>1200</lifetime>
         <restock>0</restock>
         <saferadius>400</saferadius>
@@ -1302,9 +1321,9 @@
         <children/>            
     </event>  
 	<event name="StaticPoliceCheckpoints">
-        <nominal>3</nominal>
-        <min>3</min>
-        <max>3</max>
+        <nominal>4</nominal>
+        <min>4</min>
+        <max>4</max>
         <lifetime>1200</lifetime>
         <restock>0</restock>
         <saferadius>400</saferadius>
@@ -1318,9 +1337,9 @@
         <children/>            
     </event>  	
 	<event name="StaticWreckedTrains">
-        <nominal>3</nominal>
-        <min>3</min>
-        <max>3</max>
+        <nominal>4</nominal>
+        <min>4</min>
+        <max>4</max>
         <lifetime>1200</lifetime>
         <restock>0</restock>
         <saferadius>400</saferadius>
@@ -1351,28 +1370,11 @@
             <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox2_DE"/>
             <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox3_DE"/>
         </children>
-    </event>	
-	<event name="VehicleATVMilitary">
-        <nominal>10</nominal>
-        <min>7</min>
-        <max>10</max>
-        <lifetime>300</lifetime>
-        <restock>0</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="jmc_atv_Grey"/>            
-        </children>
-    </event>
+    </event>		
 	<event name="VehicleATVCivil">
-        <nominal>10</nominal>
-        <min>7</min>
-        <max>10</max>
+        <nominal>15</nominal>
+        <min>10</min>
+        <max>15</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1383,6 +1385,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="jmc_atv_Grey"/> 
             <child lootmax="0" lootmin="0" max="5" min="3" type="jmc_atv_Blue"/>            
 			<child lootmax="0" lootmin="0" max="5" min="3" type="jmc_atv_Red"/>            
 			<child lootmax="0" lootmin="0" max="5" min="3" type="jmc_atv_Aqua"/>            
@@ -1390,4 +1393,23 @@
 			<child lootmax="0" lootmin="0" max="5" min="3" type="jmc_atv_Pink"/>            
         </children>
     </event>
+	<event name="VehicleATVSTAG">
+        <nominal>3</nominal>
+        <min>3</min>
+        <max>2</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="jmc_atv_STAG_White"/>                        
+			<child lootmax="0" lootmin="0" max="5" min="3" type="jmc_atv_STAG_Red"/>                        
+			<child lootmax="0" lootmin="0" max="5" min="3" type="jmc_atv_STAG_Black"/>                        
+        </children>
+    </event>	
 </events>
