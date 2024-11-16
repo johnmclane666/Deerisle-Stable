@@ -1117,21 +1117,25 @@
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
 	<type name="InfectedSoldierHardJMC">
-		<cargo preset="STAG_Clothing" />	
-		<cargo preset="foodArmy" />
+		<cargo preset="STAG_Clothing" />			
 		<cargo preset="ammoArmy" />			
 		<cargo preset="mixArmy" />
 		<cargo preset="ammoArmyJMC" />	
 		<cargo preset="mixArmyJMC" />		
+		<cargo preset="STAG_QuestItem" />	
+		<cargo preset="foodArmy" />		
 		<attachments preset="STAG_Vests" />
 		<attachments preset="STAG_Hats" />
 		<attachments preset="STAG_Bags" />
 	</type>
 	<type name="InfectedSoldierHardJMCWinter">		
+		<cargo preset="STAG_Clothing" />
 		<cargo preset="ammoArmy" />					
-		<cargo preset="WinterSoldier" />
-		<cargo preset="ammoArmyJMC" />			
-		<cargo preset="STAG_Clothing" />			
+		<cargo preset="mixArmy" />
+		<cargo preset="ammoArmyJMC" />	
+		<cargo preset="mixArmyJMC" />	
+		<cargo preset="WinterSoldier" />							
+		<cargo preset="STAG_QuestItem" />		
 		<attachments preset="STAG_Hats" />
 		<attachments preset="STAG_Bags" />		
 		<attachments preset="STAG_Vests" />
@@ -4039,4 +4043,140 @@
 		  <item name="SparkPlug" chance="1.0" />
 		</attachments>
 	</type>
+		<type name="ScientificBriefcase">
+		<damage min="0.0" max="0.0" />		
+		<cargo chance="1.0">
+			<item name="jmc_Prototype_White" />
+		</cargo>	
+		<cargo chance="1.0">
+			<item name="jmc_Prototype_Mag" />
+		</cargo>	
+		<cargo chance="0.1">
+			<item name="TetracyclineAntibiotics" />
+		</cargo>		
+		<cargo chance="0.1">
+			<item name="Battery9V" />
+		</cargo>		
+		<cargo chance="0.1">
+			<item name="PainkillerTablets" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="PurificationTablets" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="VitaminBottle" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="Epinephrine" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="Morphine" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="RGD5Grenade" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="M67Grenade" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="Mag_SVD_10Rnd" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="Mag_FAL_20Rnd" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="Mag_M14_20Rnd" />
+		</cargo>	
+		<cargo chance="0.1">
+			<item name="AK_Suppressor" />
+		</cargo>		
+		<cargo chance="0.1">
+			<item name="M4_Suppressor" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="PistolSuppressor" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="TacticalBaconCan" />
+		</cargo>
+		<hoarder />
+	</type>
+	<type name="jmc_atv_STAG_Black">
+		<attachments chance="1.00">
+			<item name="jmc_atv_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="jmc_atv_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="jmc_atv_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="jmc_atv_Wheel" chance="1.00" />
+		</attachments>		
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.5" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.5" />
+		</attachments>		
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.5" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.5" />
+		</attachments>
+	</type>		
+	<type name="jmc_atv_STAG_White">
+		<attachments chance="1.00">
+			<item name="jmc_atv_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="jmc_atv_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="jmc_atv_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="jmc_atv_Wheel" chance="1.00" />
+		</attachments>		
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.5" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.5" />
+		</attachments>		
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.5" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.5" />
+		</attachments>
+	</type>			
+	<type name="jmc_atv_STAG_Red">
+		<attachments chance="1.00">
+			<item name="jmc_atv_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="jmc_atv_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="jmc_atv_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="jmc_atv_Wheel" chance="1.00" />
+		</attachments>		
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.5" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.5" />
+		</attachments>		
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.5" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.5" />
+		</attachments>
+	</type>			
 </spawnabletypes>

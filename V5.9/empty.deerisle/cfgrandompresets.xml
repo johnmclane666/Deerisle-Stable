@@ -665,7 +665,7 @@
     <item name="TunaCan" chance="0.1" />
     <item name="SardinesCan" chance="0.1" />
   </cargo>
-  <cargo chance="0.30" name="ammoArmyJMC">
+  <cargo chance="0.50" name="ammoArmyJMC">
     <item name="AmmoBox_308Win_20Rnd" chance="0.05" />
     <item name="AmmoBox_357_20Rnd" chance="0.05" />
     <item name="AmmoBox_380_35Rnd" chance="0.05" />
@@ -676,7 +676,7 @@
     <item name="AmmoBox_9x29_20Rnd" chance="0.05" />
     <item name="jmc_SnowOwl_Ammo" chance="0.05" />
   </cargo>
-  <cargo chance="0.15" name="mixArmyJMC">
+  <cargo chance="0.20" name="mixArmyJMC">
     <item name="Mag_CMAG_40Rnd" chance="0.05" />
     <item name="Mag_FAL_20Rnd" chance="0.05" />
     <item name="Mag_M14_20Rnd" chance="0.05" />
@@ -691,16 +691,16 @@
     <item name="Mag_AKM_30Rnd" chance="0.05" />
   </cargo>
   <attachments chance="0.2" name="STAG_Bags">
-    <item name="STAG_Clothing_6sh118" chance="0.1" />
-    <item name="STAG_Clothing_ArmyBackpack" chance="0.1" />
-    <item name="STAG_Clothing_CoyoteBag" chance="0.1" />
-    <item name="STAG_Clothing_MountainBag" chance="0.1" />    
+    <item name="STAG_Clothing_6sh118" chance="0.15" />
+    <item name="STAG_Clothing_ArmyBackpack" chance="0.15" />
+    <item name="STAG_Clothing_CoyoteBag" chance="0.15" />
+    <item name="STAG_Clothing_MountainBag" chance="0.15" />    
   </attachments>  
-  <attachments chance="0.15" name="STAG_Vests">
-    <item name="STAG_Clothing_Vest" chance="0.4" />
+  <attachments chance="0.1" name="STAG_Vests">
+    <item name="STAG_Clothing_Vest" chance="0.3" />
     <item name="STAG_Clothing_PlateCarrier" chance="0.2" />    
   </attachments>   
-  <cargo chance="0.3" name="STAG_Clothing">
+  <cargo chance="0.5" name="STAG_Clothing">
     <item name="STAG_Clothing_Armband" chance="0.1" />
     <item name="STAG_Clothing_Boots" chance="0.1" />
     <item name="STAG_Flag_Gespiegelt" chance="0.1" />
@@ -710,4 +710,7 @@
     <item name="STAG_Clothing_Cargo_Pants" chance="0.1" />
     <item name="STAG_Clothing_Pouches" chance="0.1" />    
   </cargo>  
+  <cargo chance="1.0" name="STAG_QuestItem">
+    <item name="ScientificBriefcaseKeys" chance="0.02" />      
+  </cargo>    
 </randompresets>

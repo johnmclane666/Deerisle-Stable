@@ -42,6 +42,7 @@
 		<usage name="PlantsC" />		
 		<usage name="Special"/>
 		<usage name="SMK"/>        
+		<usage name="Staff"/>        
         <usage name="Underground"/>				
 	</usageflags>
 	<valueflags>

@@ -531,4 +531,8 @@
 		<child type="Land_Container_1Moh_DE" deloot="0" lootmax="3" lootmin="1" x="-32.8521" z="-32.2402" y="0.7750" a="225.593338"/>
 		<child type="Land_Container_1Moh_DE" deloot="0" lootmax="3" lootmin="1" x="-20.2578" z="-19.7881" y="0.6669" a="225.593262"/>
 	</group>	
+    <group name="Scientist">
+        <child type="StaticObj_FrozenScientist_DE" spawnsecondary="false" x="0.0" z="0.0" a="0" y="0"/>
+        <child type="ScientificBriefcase" spawnsecondary="false" x="0.7" z="-1.25" a="180"/>
+    </group>	
 </eventgroupdef>
