@@ -43,7 +43,11 @@
 		<usage name="Special"/>
 		<usage name="SMK"/>        
 		<usage name="Staff"/>        
-        <usage name="Underground"/>				
+        <usage name="Underground"/>			
+		<usage name="Fortknox"/>
+        <usage name="Mine"/>
+        <usage name="Temple"/>
+        <usage name="Historical"/>		
 	</usageflags>
 	<valueflags>
 		<value name="Tier1"/>
