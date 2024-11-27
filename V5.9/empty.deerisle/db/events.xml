@@ -55,9 +55,9 @@
         </children>
     </event>
     <event name="AmbientBear">
-        <nominal>6</nominal>
-        <min>1</min>
-        <max>2</max>
+        <nominal>7</nominal>
+        <min>5</min>
+        <max>7</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -72,9 +72,9 @@
         </children>
     </event>
 	<event name="AmbientPolarbear">
-        <nominal>4</nominal>
-        <min>1</min>
-        <max>2</max>
+        <nominal>6</nominal>
+        <min>3</min>
+        <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -90,8 +90,8 @@
     </event>	
     <event name="AmbientCow">
         <nominal>8</nominal>
-        <min>1</min>
-        <max>3</max>
+        <min>2</min>
+        <max>4</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -112,8 +112,8 @@
     </event>
     <event name="AmbientDeer">
         <nominal>9</nominal>
-        <min>2</min>
-        <max>4</max>
+        <min>3</min>
+        <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -130,8 +130,8 @@
     </event>
     <event name="AmbientGoat">
         <nominal>10</nominal>
-        <min>1</min>
-        <max>3</max>
+        <min>3</min>
+        <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -150,8 +150,8 @@
     </event>
     <event name="AmbientPig">
         <nominal>6</nominal>
-        <min>1</min>
-        <max>3</max>
+        <min>3</min>
+        <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -185,8 +185,8 @@
     </event>	
     <event name="AmbientRoeDeer">
         <nominal>12</nominal>
-        <min>1</min>
-        <max>3</max>
+        <min>2</min>
+        <max>4</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -221,8 +221,8 @@
     </event>
     <event name="AmbientWildBoar">
         <nominal>9</nominal>
-        <min>1</min>
-        <max>3</max>
+        <min>3</min>
+        <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
